@@ -1,0 +1,7 @@
+package com.sun.springcore.autowire;
+
+public class Employee{
+	private Address address;
+	
+	
+}

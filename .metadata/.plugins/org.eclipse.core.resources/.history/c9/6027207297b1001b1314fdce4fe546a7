@@ -1,0 +1,7 @@
+package com.sun.springcore.lifecycle;
+
+public class Pepsi {
+	private double price;
+	
+	
+}

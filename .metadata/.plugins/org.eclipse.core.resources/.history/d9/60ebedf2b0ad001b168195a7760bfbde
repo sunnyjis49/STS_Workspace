@@ -1,0 +1,14 @@
+package com.sun;
+
+import java.util.List;
+
+public class SortingTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p = new Person();
+		List<Person> pList = p.getPersonList();
+		System.out.println("pList: "+pList);
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sun;
+
+import java.util.List;
+
+public class SortTesting {
+	Person p = new Person();
+	List<Person> persionList = p.getPersonList();
+	System.out.println();
+}

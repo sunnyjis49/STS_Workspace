@@ -1,0 +1,9 @@
+package com.sun.springcore.ref;
+
+public class Addition {
+	private int x;
+	private int y;
+	
+	
+
+}

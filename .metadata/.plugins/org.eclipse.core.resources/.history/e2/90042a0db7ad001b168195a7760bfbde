@@ -1,0 +1,22 @@
+package com.sun;
+
+import java.util.HashSet;
+
+public class SortingTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p1 = new Person(11,"Sunny", 32);
+		Person p2 = new Person(22,"Raihan", 40);
+		Person p3 = new Person(33,"Miran", 36);
+		Person p4 = new Person(11,"Sunny", 32);
+		
+		HashSet<Person> pSet = new HashSet<>();
+		pSet.add(p1);
+		pSet.add(p2);
+		pSet.add(p3);
+		pSet.add(p4);
+		pSet.forEach(p->System.out::println);
+	}
+
+}

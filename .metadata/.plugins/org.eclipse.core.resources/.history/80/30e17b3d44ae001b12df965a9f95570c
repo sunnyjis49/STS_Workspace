@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.sun;
+
+import java.io.Serializable;
+
+/**
+ * @author SUN
+ *
+ */
+public class Save implements Serializable{
+	
+	/*if you dont declare serialVersionUID default will be generated
+		1.
+	
+	*/
+	private static final long serialVersionUID = 1402140817209880818L;
+	//transient int i ; // transient keyword is used not to save particular data
+	int i;
+	String str;
+	int age;
+}

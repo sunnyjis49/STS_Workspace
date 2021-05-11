@@ -1,0 +1,31 @@
+package com.sun.springcore.standalone.collections;
+
+import java.util.List;
+
+class Person {
+ private List<String> friends;
+
+/**
+ * @return the friends
+ */
+public List<String> getFriends() {
+	return friends;
+}
+
+/**
+ * @param friends the friends to set
+ */
+public void setFriends(List<String> friends) {
+	this.friends = friends;
+}
+
+/* (non-Javadoc)
+ * @see java.lang.Object#toString()
+ */
+@Override
+public String toString() {
+	return "Person [friends=" + friends + "]";
+}
+ 
+ 
+}

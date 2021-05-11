@@ -1,0 +1,7 @@
+package com.sun.springcore.lifecycle;
+
+public class Chips {
+	private double price;
+	
+	
+}

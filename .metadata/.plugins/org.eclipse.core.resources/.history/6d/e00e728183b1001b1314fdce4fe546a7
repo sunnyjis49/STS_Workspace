@@ -1,0 +1,9 @@
+package com.sun.springcore.constructorinjection;
+
+public class Person {
+	private int id;
+	private String name;
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package com.sun;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class SortingTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p1 = new Person(11,"Sunny", 32);
+		Person p2 = new Person(22,"Raihan", 32);
+		Person p3 = new Person(33,"Miran", 32);
+		
+	}
+
+}

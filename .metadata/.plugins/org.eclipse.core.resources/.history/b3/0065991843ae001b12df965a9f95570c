@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.sun;
+
+import java.io.Serializable;
+
+/**
+ * @author SUN
+ *
+ */
+public class Save implements Serializable{
+	//transient int i ; // transient keyword is used not to save particular data
+	transient int i;
+	transient String str;
+	int age;
+}

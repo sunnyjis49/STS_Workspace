@@ -1,0 +1,9 @@
+package com.sun.springcore.standalone.collections;
+
+import java.util.List;
+
+class Person {
+ private List<String> friends;
+ 
+ 
+}
